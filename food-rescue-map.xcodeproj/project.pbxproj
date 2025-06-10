@@ -1,0 +1,563 @@
+// !$*UTF8*$!
+{
+	archiveVersion = 1;
+	classes = {
+	};
+	objectVersion = 77;
+	objects = {
+
+/* Begin PBXContainerItemProxy section */
+		542ADDCE2DF8E87900F5A2F4 /* PBXContainerItemProxy */ = {
+			isa = PBXContainerItemProxy;
+			containerPortal = 542ADDB32DF8E87800F5A2F4 /* Project object */;
+			proxyType = 1;
+			remoteGlobalIDString = 542ADDBA2DF8E87800F5A2F4;
+			remoteInfo = "food-rescue-map";
+		};
+		542ADDD82DF8E87900F5A2F4 /* PBXContainerItemProxy */ = {
+			isa = PBXContainerItemProxy;
+			containerPortal = 542ADDB32DF8E87800F5A2F4 /* Project object */;
+			proxyType = 1;
+			remoteGlobalIDString = 542ADDBA2DF8E87800F5A2F4;
+			remoteInfo = "food-rescue-map";
+		};
+/* End PBXContainerItemProxy section */
+
+/* Begin PBXFileReference section */
+		542ADDBB2DF8E87800F5A2F4 /* food-rescue-map.app */ = {isa = PBXFileReference; explicitFileType = wrapper.application; includeInIndex = 0; path = "food-rescue-map.app"; sourceTree = BUILT_PRODUCTS_DIR; };
+		542ADDCD2DF8E87900F5A2F4 /* food-rescue-mapTests.xctest */ = {isa = PBXFileReference; explicitFileType = wrapper.cfbundle; includeInIndex = 0; path = "food-rescue-mapTests.xctest"; sourceTree = BUILT_PRODUCTS_DIR; };
+		542ADDD72DF8E87900F5A2F4 /* food-rescue-mapUITests.xctest */ = {isa = PBXFileReference; explicitFileType = wrapper.cfbundle; includeInIndex = 0; path = "food-rescue-mapUITests.xctest"; sourceTree = BUILT_PRODUCTS_DIR; };
+/* End PBXFileReference section */
+
+/* Begin PBXFileSystemSynchronizedRootGroup section */
+		542ADDBD2DF8E87800F5A2F4 /* food-rescue-map */ = {
+			isa = PBXFileSystemSynchronizedRootGroup;
+			path = "food-rescue-map";
+			sourceTree = "<group>";
+		};
+		542ADDD02DF8E87900F5A2F4 /* food-rescue-mapTests */ = {
+			isa = PBXFileSystemSynchronizedRootGroup;
+			path = "food-rescue-mapTests";
+			sourceTree = "<group>";
+		};
+		542ADDDA2DF8E87900F5A2F4 /* food-rescue-mapUITests */ = {
+			isa = PBXFileSystemSynchronizedRootGroup;
+			path = "food-rescue-mapUITests";
+			sourceTree = "<group>";
+		};
+/* End PBXFileSystemSynchronizedRootGroup section */
+
+/* Begin PBXFrameworksBuildPhase section */
+		542ADDB82DF8E87800F5A2F4 /* Frameworks */ = {
+			isa = PBXFrameworksBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		542ADDCA2DF8E87900F5A2F4 /* Frameworks */ = {
+			isa = PBXFrameworksBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		542ADDD42DF8E87900F5A2F4 /* Frameworks */ = {
+			isa = PBXFrameworksBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXFrameworksBuildPhase section */
+
+/* Begin PBXGroup section */
+		542ADDB22DF8E87800F5A2F4 = {
+			isa = PBXGroup;
+			children = (
+				542ADDBD2DF8E87800F5A2F4 /* food-rescue-map */,
+				542ADDD02DF8E87900F5A2F4 /* food-rescue-mapTests */,
+				542ADDDA2DF8E87900F5A2F4 /* food-rescue-mapUITests */,
+				542ADDBC2DF8E87800F5A2F4 /* Products */,
+			);
+			sourceTree = "<group>";
+		};
+		542ADDBC2DF8E87800F5A2F4 /* Products */ = {
+			isa = PBXGroup;
+			children = (
+				542ADDBB2DF8E87800F5A2F4 /* food-rescue-map.app */,
+				542ADDCD2DF8E87900F5A2F4 /* food-rescue-mapTests.xctest */,
+				542ADDD72DF8E87900F5A2F4 /* food-rescue-mapUITests.xctest */,
+			);
+			name = Products;
+			sourceTree = "<group>";
+		};
+/* End PBXGroup section */
+
+/* Begin PBXNativeTarget section */
+		542ADDBA2DF8E87800F5A2F4 /* food-rescue-map */ = {
+			isa = PBXNativeTarget;
+			buildConfigurationList = 542ADDE12DF8E87900F5A2F4 /* Build configuration list for PBXNativeTarget "food-rescue-map" */;
+			buildPhases = (
+				542ADDB72DF8E87800F5A2F4 /* Sources */,
+				542ADDB82DF8E87800F5A2F4 /* Frameworks */,
+				542ADDB92DF8E87800F5A2F4 /* Resources */,
+			);
+			buildRules = (
+			);
+			dependencies = (
+			);
+			fileSystemSynchronizedGroups = (
+				542ADDBD2DF8E87800F5A2F4 /* food-rescue-map */,
+			);
+			name = "food-rescue-map";
+			packageProductDependencies = (
+			);
+			productName = "food-rescue-map";
+			productReference = 542ADDBB2DF8E87800F5A2F4 /* food-rescue-map.app */;
+			productType = "com.apple.product-type.application";
+		};
+		542ADDCC2DF8E87900F5A2F4 /* food-rescue-mapTests */ = {
+			isa = PBXNativeTarget;
+			buildConfigurationList = 542ADDE42DF8E87900F5A2F4 /* Build configuration list for PBXNativeTarget "food-rescue-mapTests" */;
+			buildPhases = (
+				542ADDC92DF8E87900F5A2F4 /* Sources */,
+				542ADDCA2DF8E87900F5A2F4 /* Frameworks */,
+				542ADDCB2DF8E87900F5A2F4 /* Resources */,
+			);
+			buildRules = (
+			);
+			dependencies = (
+				542ADDCF2DF8E87900F5A2F4 /* PBXTargetDependency */,
+			);
+			fileSystemSynchronizedGroups = (
+				542ADDD02DF8E87900F5A2F4 /* food-rescue-mapTests */,
+			);
+			name = "food-rescue-mapTests";
+			packageProductDependencies = (
+			);
+			productName = "food-rescue-mapTests";
+			productReference = 542ADDCD2DF8E87900F5A2F4 /* food-rescue-mapTests.xctest */;
+			productType = "com.apple.product-type.bundle.unit-test";
+		};
+		542ADDD62DF8E87900F5A2F4 /* food-rescue-mapUITests */ = {
+			isa = PBXNativeTarget;
+			buildConfigurationList = 542ADDE72DF8E87900F5A2F4 /* Build configuration list for PBXNativeTarget "food-rescue-mapUITests" */;
+			buildPhases = (
+				542ADDD32DF8E87900F5A2F4 /* Sources */,
+				542ADDD42DF8E87900F5A2F4 /* Frameworks */,
+				542ADDD52DF8E87900F5A2F4 /* Resources */,
+			);
+			buildRules = (
+			);
+			dependencies = (
+				542ADDD92DF8E87900F5A2F4 /* PBXTargetDependency */,
+			);
+			fileSystemSynchronizedGroups = (
+				542ADDDA2DF8E87900F5A2F4 /* food-rescue-mapUITests */,
+			);
+			name = "food-rescue-mapUITests";
+			packageProductDependencies = (
+			);
+			productName = "food-rescue-mapUITests";
+			productReference = 542ADDD72DF8E87900F5A2F4 /* food-rescue-mapUITests.xctest */;
+			productType = "com.apple.product-type.bundle.ui-testing";
+		};
+/* End PBXNativeTarget section */
+
+/* Begin PBXProject section */
+		542ADDB32DF8E87800F5A2F4 /* Project object */ = {
+			isa = PBXProject;
+			attributes = {
+				BuildIndependentTargetsInParallel = 1;
+				LastSwiftUpdateCheck = 1640;
+				LastUpgradeCheck = 1640;
+				TargetAttributes = {
+					542ADDBA2DF8E87800F5A2F4 = {
+						CreatedOnToolsVersion = 16.4;
+					};
+					542ADDCC2DF8E87900F5A2F4 = {
+						CreatedOnToolsVersion = 16.4;
+						TestTargetID = 542ADDBA2DF8E87800F5A2F4;
+					};
+					542ADDD62DF8E87900F5A2F4 = {
+						CreatedOnToolsVersion = 16.4;
+						TestTargetID = 542ADDBA2DF8E87800F5A2F4;
+					};
+				};
+			};
+			buildConfigurationList = 542ADDB62DF8E87800F5A2F4 /* Build configuration list for PBXProject "food-rescue-map" */;
+			developmentRegion = en;
+			hasScannedForEncodings = 0;
+			knownRegions = (
+				en,
+				Base,
+			);
+			mainGroup = 542ADDB22DF8E87800F5A2F4;
+			minimizedProjectReferenceProxies = 1;
+			preferredProjectObjectVersion = 77;
+			productRefGroup = 542ADDBC2DF8E87800F5A2F4 /* Products */;
+			projectDirPath = "";
+			projectRoot = "";
+			targets = (
+				542ADDBA2DF8E87800F5A2F4 /* food-rescue-map */,
+				542ADDCC2DF8E87900F5A2F4 /* food-rescue-mapTests */,
+				542ADDD62DF8E87900F5A2F4 /* food-rescue-mapUITests */,
+			);
+		};
+/* End PBXProject section */
+
+/* Begin PBXResourcesBuildPhase section */
+		542ADDB92DF8E87800F5A2F4 /* Resources */ = {
+			isa = PBXResourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		542ADDCB2DF8E87900F5A2F4 /* Resources */ = {
+			isa = PBXResourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		542ADDD52DF8E87900F5A2F4 /* Resources */ = {
+			isa = PBXResourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXResourcesBuildPhase section */
+
+/* Begin PBXSourcesBuildPhase section */
+		542ADDB72DF8E87800F5A2F4 /* Sources */ = {
+			isa = PBXSourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		542ADDC92DF8E87900F5A2F4 /* Sources */ = {
+			isa = PBXSourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		542ADDD32DF8E87900F5A2F4 /* Sources */ = {
+			isa = PBXSourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXSourcesBuildPhase section */
+
+/* Begin PBXTargetDependency section */
+		542ADDCF2DF8E87900F5A2F4 /* PBXTargetDependency */ = {
+			isa = PBXTargetDependency;
+			target = 542ADDBA2DF8E87800F5A2F4 /* food-rescue-map */;
+			targetProxy = 542ADDCE2DF8E87900F5A2F4 /* PBXContainerItemProxy */;
+		};
+		542ADDD92DF8E87900F5A2F4 /* PBXTargetDependency */ = {
+			isa = PBXTargetDependency;
+			target = 542ADDBA2DF8E87800F5A2F4 /* food-rescue-map */;
+			targetProxy = 542ADDD82DF8E87900F5A2F4 /* PBXContainerItemProxy */;
+		};
+/* End PBXTargetDependency section */
+
+/* Begin XCBuildConfiguration section */
+		542ADDDF2DF8E87900F5A2F4 /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_SEARCH_USER_PATHS = NO;
+				ASSETCATALOG_COMPILER_GENERATE_SWIFT_ASSET_SYMBOL_EXTENSIONS = YES;
+				CLANG_ANALYZER_NONNULL = YES;
+				CLANG_ANALYZER_NUMBER_OBJECT_CONVERSION = YES_AGGRESSIVE;
+				CLANG_CXX_LANGUAGE_STANDARD = "gnu++20";
+				CLANG_ENABLE_MODULES = YES;
+				CLANG_ENABLE_OBJC_ARC = YES;
+				CLANG_ENABLE_OBJC_WEAK = YES;
+				CLANG_WARN_BLOCK_CAPTURE_AUTORELEASING = YES;
+				CLANG_WARN_BOOL_CONVERSION = YES;
+				CLANG_WARN_COMMA = YES;
+				CLANG_WARN_CONSTANT_CONVERSION = YES;
+				CLANG_WARN_DEPRECATED_OBJC_IMPLEMENTATIONS = YES;
+				CLANG_WARN_DIRECT_OBJC_ISA_USAGE = YES_ERROR;
+				CLANG_WARN_DOCUMENTATION_COMMENTS = YES;
+				CLANG_WARN_EMPTY_BODY = YES;
+				CLANG_WARN_ENUM_CONVERSION = YES;
+				CLANG_WARN_INFINITE_RECURSION = YES;
+				CLANG_WARN_INT_CONVERSION = YES;
+				CLANG_WARN_NON_LITERAL_NULL_CONVERSION = YES;
+				CLANG_WARN_OBJC_IMPLICIT_RETAIN_SELF = YES;
+				CLANG_WARN_OBJC_LITERAL_CONVERSION = YES;
+				CLANG_WARN_OBJC_ROOT_CLASS = YES_ERROR;
+				CLANG_WARN_QUOTED_INCLUDE_IN_FRAMEWORK_HEADER = YES;
+				CLANG_WARN_RANGE_LOOP_ANALYSIS = YES;
+				CLANG_WARN_STRICT_PROTOTYPES = YES;
+				CLANG_WARN_SUSPICIOUS_MOVE = YES;
+				CLANG_WARN_UNGUARDED_AVAILABILITY = YES_AGGRESSIVE;
+				CLANG_WARN_UNREACHABLE_CODE = YES;
+				CLANG_WARN__DUPLICATE_METHOD_MATCH = YES;
+				COPY_PHASE_STRIP = NO;
+				DEBUG_INFORMATION_FORMAT = dwarf;
+				DEVELOPMENT_TEAM = PMX349YWP7;
+				ENABLE_STRICT_OBJC_MSGSEND = YES;
+				ENABLE_TESTABILITY = YES;
+				ENABLE_USER_SCRIPT_SANDBOXING = YES;
+				GCC_C_LANGUAGE_STANDARD = gnu17;
+				GCC_DYNAMIC_NO_PIC = NO;
+				GCC_NO_COMMON_BLOCKS = YES;
+				GCC_OPTIMIZATION_LEVEL = 0;
+				GCC_PREPROCESSOR_DEFINITIONS = (
+					"DEBUG=1",
+					"$(inherited)",
+				);
+				GCC_WARN_64_TO_32_BIT_CONVERSION = YES;
+				GCC_WARN_ABOUT_RETURN_TYPE = YES_ERROR;
+				GCC_WARN_UNDECLARED_SELECTOR = YES;
+				GCC_WARN_UNINITIALIZED_AUTOS = YES_AGGRESSIVE;
+				GCC_WARN_UNUSED_FUNCTION = YES;
+				GCC_WARN_UNUSED_VARIABLE = YES;
+				IPHONEOS_DEPLOYMENT_TARGET = 18.5;
+				LOCALIZATION_PREFERS_STRING_CATALOGS = YES;
+				MTL_ENABLE_DEBUG_INFO = INCLUDE_SOURCE;
+				MTL_FAST_MATH = YES;
+				ONLY_ACTIVE_ARCH = YES;
+				SDKROOT = iphoneos;
+				SWIFT_ACTIVE_COMPILATION_CONDITIONS = "DEBUG $(inherited)";
+				SWIFT_OPTIMIZATION_LEVEL = "-Onone";
+			};
+			name = Debug;
+		};
+		542ADDE02DF8E87900F5A2F4 /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_SEARCH_USER_PATHS = NO;
+				ASSETCATALOG_COMPILER_GENERATE_SWIFT_ASSET_SYMBOL_EXTENSIONS = YES;
+				CLANG_ANALYZER_NONNULL = YES;
+				CLANG_ANALYZER_NUMBER_OBJECT_CONVERSION = YES_AGGRESSIVE;
+				CLANG_CXX_LANGUAGE_STANDARD = "gnu++20";
+				CLANG_ENABLE_MODULES = YES;
+				CLANG_ENABLE_OBJC_ARC = YES;
+				CLANG_ENABLE_OBJC_WEAK = YES;
+				CLANG_WARN_BLOCK_CAPTURE_AUTORELEASING = YES;
+				CLANG_WARN_BOOL_CONVERSION = YES;
+				CLANG_WARN_COMMA = YES;
+				CLANG_WARN_CONSTANT_CONVERSION = YES;
+				CLANG_WARN_DEPRECATED_OBJC_IMPLEMENTATIONS = YES;
+				CLANG_WARN_DIRECT_OBJC_ISA_USAGE = YES_ERROR;
+				CLANG_WARN_DOCUMENTATION_COMMENTS = YES;
+				CLANG_WARN_EMPTY_BODY = YES;
+				CLANG_WARN_ENUM_CONVERSION = YES;
+				CLANG_WARN_INFINITE_RECURSION = YES;
+				CLANG_WARN_INT_CONVERSION = YES;
+				CLANG_WARN_NON_LITERAL_NULL_CONVERSION = YES;
+				CLANG_WARN_OBJC_IMPLICIT_RETAIN_SELF = YES;
+				CLANG_WARN_OBJC_LITERAL_CONVERSION = YES;
+				CLANG_WARN_OBJC_ROOT_CLASS = YES_ERROR;
+				CLANG_WARN_QUOTED_INCLUDE_IN_FRAMEWORK_HEADER = YES;
+				CLANG_WARN_RANGE_LOOP_ANALYSIS = YES;
+				CLANG_WARN_STRICT_PROTOTYPES = YES;
+				CLANG_WARN_SUSPICIOUS_MOVE = YES;
+				CLANG_WARN_UNGUARDED_AVAILABILITY = YES_AGGRESSIVE;
+				CLANG_WARN_UNREACHABLE_CODE = YES;
+				CLANG_WARN__DUPLICATE_METHOD_MATCH = YES;
+				COPY_PHASE_STRIP = NO;
+				DEBUG_INFORMATION_FORMAT = "dwarf-with-dsym";
+				DEVELOPMENT_TEAM = PMX349YWP7;
+				ENABLE_NS_ASSERTIONS = NO;
+				ENABLE_STRICT_OBJC_MSGSEND = YES;
+				ENABLE_USER_SCRIPT_SANDBOXING = YES;
+				GCC_C_LANGUAGE_STANDARD = gnu17;
+				GCC_NO_COMMON_BLOCKS = YES;
+				GCC_WARN_64_TO_32_BIT_CONVERSION = YES;
+				GCC_WARN_ABOUT_RETURN_TYPE = YES_ERROR;
+				GCC_WARN_UNDECLARED_SELECTOR = YES;
+				GCC_WARN_UNINITIALIZED_AUTOS = YES_AGGRESSIVE;
+				GCC_WARN_UNUSED_FUNCTION = YES;
+				GCC_WARN_UNUSED_VARIABLE = YES;
+				IPHONEOS_DEPLOYMENT_TARGET = 18.5;
+				LOCALIZATION_PREFERS_STRING_CATALOGS = YES;
+				MTL_ENABLE_DEBUG_INFO = NO;
+				MTL_FAST_MATH = YES;
+				SDKROOT = iphoneos;
+				SWIFT_COMPILATION_MODE = wholemodule;
+				VALIDATE_PRODUCT = YES;
+			};
+			name = Release;
+		};
+		542ADDE22DF8E87900F5A2F4 /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
+				ASSETCATALOG_COMPILER_GLOBAL_ACCENT_COLOR_NAME = AccentColor;
+				CODE_SIGN_STYLE = Automatic;
+				CURRENT_PROJECT_VERSION = 1;
+				DEVELOPMENT_TEAM = PMX349YWP7;
+				ENABLE_PREVIEWS = YES;
+				GENERATE_INFOPLIST_FILE = YES;
+				INFOPLIST_KEY_UIApplicationSceneManifest_Generation = YES;
+				INFOPLIST_KEY_UIApplicationSupportsIndirectInputEvents = YES;
+				INFOPLIST_KEY_UILaunchScreen_Generation = YES;
+				INFOPLIST_KEY_UISupportedInterfaceOrientations_iPad = "UIInterfaceOrientationPortrait UIInterfaceOrientationPortraitUpsideDown UIInterfaceOrientationLandscapeLeft UIInterfaceOrientationLandscapeRight";
+				INFOPLIST_KEY_UISupportedInterfaceOrientations_iPhone = "UIInterfaceOrientationPortrait UIInterfaceOrientationLandscapeLeft UIInterfaceOrientationLandscapeRight";
+				LD_RUNPATH_SEARCH_PATHS = (
+					"$(inherited)",
+					"@executable_path/Frameworks",
+				);
+				MARKETING_VERSION = 1.0;
+				PRODUCT_BUNDLE_IDENTIFIER = "test.food-rescue-map";
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				SWIFT_EMIT_LOC_STRINGS = YES;
+				SWIFT_VERSION = 5.0;
+				TARGETED_DEVICE_FAMILY = "1,2";
+			};
+			name = Debug;
+		};
+		542ADDE32DF8E87900F5A2F4 /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
+				ASSETCATALOG_COMPILER_GLOBAL_ACCENT_COLOR_NAME = AccentColor;
+				CODE_SIGN_STYLE = Automatic;
+				CURRENT_PROJECT_VERSION = 1;
+				DEVELOPMENT_TEAM = PMX349YWP7;
+				ENABLE_PREVIEWS = YES;
+				GENERATE_INFOPLIST_FILE = YES;
+				INFOPLIST_KEY_UIApplicationSceneManifest_Generation = YES;
+				INFOPLIST_KEY_UIApplicationSupportsIndirectInputEvents = YES;
+				INFOPLIST_KEY_UILaunchScreen_Generation = YES;
+				INFOPLIST_KEY_UISupportedInterfaceOrientations_iPad = "UIInterfaceOrientationPortrait UIInterfaceOrientationPortraitUpsideDown UIInterfaceOrientationLandscapeLeft UIInterfaceOrientationLandscapeRight";
+				INFOPLIST_KEY_UISupportedInterfaceOrientations_iPhone = "UIInterfaceOrientationPortrait UIInterfaceOrientationLandscapeLeft UIInterfaceOrientationLandscapeRight";
+				LD_RUNPATH_SEARCH_PATHS = (
+					"$(inherited)",
+					"@executable_path/Frameworks",
+				);
+				MARKETING_VERSION = 1.0;
+				PRODUCT_BUNDLE_IDENTIFIER = "test.food-rescue-map";
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				SWIFT_EMIT_LOC_STRINGS = YES;
+				SWIFT_VERSION = 5.0;
+				TARGETED_DEVICE_FAMILY = "1,2";
+			};
+			name = Release;
+		};
+		542ADDE52DF8E87900F5A2F4 /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				BUNDLE_LOADER = "$(TEST_HOST)";
+				CODE_SIGN_STYLE = Automatic;
+				CURRENT_PROJECT_VERSION = 1;
+				DEVELOPMENT_TEAM = PMX349YWP7;
+				GENERATE_INFOPLIST_FILE = YES;
+				IPHONEOS_DEPLOYMENT_TARGET = 18.5;
+				MARKETING_VERSION = 1.0;
+				PRODUCT_BUNDLE_IDENTIFIER = "test.food-rescue-mapTests";
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				SWIFT_EMIT_LOC_STRINGS = NO;
+				SWIFT_VERSION = 5.0;
+				TARGETED_DEVICE_FAMILY = "1,2";
+				TEST_HOST = "$(BUILT_PRODUCTS_DIR)/food-rescue-map.app/$(BUNDLE_EXECUTABLE_FOLDER_PATH)/food-rescue-map";
+			};
+			name = Debug;
+		};
+		542ADDE62DF8E87900F5A2F4 /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				BUNDLE_LOADER = "$(TEST_HOST)";
+				CODE_SIGN_STYLE = Automatic;
+				CURRENT_PROJECT_VERSION = 1;
+				DEVELOPMENT_TEAM = PMX349YWP7;
+				GENERATE_INFOPLIST_FILE = YES;
+				IPHONEOS_DEPLOYMENT_TARGET = 18.5;
+				MARKETING_VERSION = 1.0;
+				PRODUCT_BUNDLE_IDENTIFIER = "test.food-rescue-mapTests";
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				SWIFT_EMIT_LOC_STRINGS = NO;
+				SWIFT_VERSION = 5.0;
+				TARGETED_DEVICE_FAMILY = "1,2";
+				TEST_HOST = "$(BUILT_PRODUCTS_DIR)/food-rescue-map.app/$(BUNDLE_EXECUTABLE_FOLDER_PATH)/food-rescue-map";
+			};
+			name = Release;
+		};
+		542ADDE82DF8E87900F5A2F4 /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				CODE_SIGN_STYLE = Automatic;
+				CURRENT_PROJECT_VERSION = 1;
+				DEVELOPMENT_TEAM = PMX349YWP7;
+				GENERATE_INFOPLIST_FILE = YES;
+				MARKETING_VERSION = 1.0;
+				PRODUCT_BUNDLE_IDENTIFIER = "test.food-rescue-mapUITests";
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				SWIFT_EMIT_LOC_STRINGS = NO;
+				SWIFT_VERSION = 5.0;
+				TARGETED_DEVICE_FAMILY = "1,2";
+				TEST_TARGET_NAME = "food-rescue-map";
+			};
+			name = Debug;
+		};
+		542ADDE92DF8E87900F5A2F4 /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				CODE_SIGN_STYLE = Automatic;
+				CURRENT_PROJECT_VERSION = 1;
+				DEVELOPMENT_TEAM = PMX349YWP7;
+				GENERATE_INFOPLIST_FILE = YES;
+				MARKETING_VERSION = 1.0;
+				PRODUCT_BUNDLE_IDENTIFIER = "test.food-rescue-mapUITests";
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				SWIFT_EMIT_LOC_STRINGS = NO;
+				SWIFT_VERSION = 5.0;
+				TARGETED_DEVICE_FAMILY = "1,2";
+				TEST_TARGET_NAME = "food-rescue-map";
+			};
+			name = Release;
+		};
+/* End XCBuildConfiguration section */
+
+/* Begin XCConfigurationList section */
+		542ADDB62DF8E87800F5A2F4 /* Build configuration list for PBXProject "food-rescue-map" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				542ADDDF2DF8E87900F5A2F4 /* Debug */,
+				542ADDE02DF8E87900F5A2F4 /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+		542ADDE12DF8E87900F5A2F4 /* Build configuration list for PBXNativeTarget "food-rescue-map" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				542ADDE22DF8E87900F5A2F4 /* Debug */,
+				542ADDE32DF8E87900F5A2F4 /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+		542ADDE42DF8E87900F5A2F4 /* Build configuration list for PBXNativeTarget "food-rescue-mapTests" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				542ADDE52DF8E87900F5A2F4 /* Debug */,
+				542ADDE62DF8E87900F5A2F4 /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+		542ADDE72DF8E87900F5A2F4 /* Build configuration list for PBXNativeTarget "food-rescue-mapUITests" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				542ADDE82DF8E87900F5A2F4 /* Debug */,
+				542ADDE92DF8E87900F5A2F4 /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+/* End XCConfigurationList section */
+	};
+	rootObject = 542ADDB32DF8E87800F5A2F4 /* Project object */;
+}
