@@ -55,8 +55,9 @@ struct AddLocationView: View {
                         }
                     }
                 }
-                TextField("Contact Info (e.g., email, phone)", text: $contact)
-
+                Section("Contact"){
+                    TextField("Contact Info (e.g., email, phone)", text: $contact)
+                }
                 Section("Details") {
                     TextEditor(text: $details) // Multiline text input
                         .frame(height: 100)
