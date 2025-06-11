@@ -10,7 +10,7 @@ import SwiftUI
 @main
 struct food_rescue_mapApp: App {
     let persistenceController = PersistenceController.shared
-
+    
     var body: some Scene {
         WindowGroup {
             ContentView()
